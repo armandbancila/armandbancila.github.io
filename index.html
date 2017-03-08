@@ -1,90 +1,33 @@
 <!DOCTYPE html>
-<!-- need to download bootstrap -->
 <html lang="en">
-    
-<div class="container-fluid">
-    <head>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-        <title>Armand Bancila</title>
-        <style>
-            .default-text {
-                font-size: 100%;
-                font-family: roboto;
-                text-align: center;
-                color: #d79921;
-                background-color: #32302f;
-            }
-            #main-title {
-                color: #fabd2f;
-            }
-            .hr-color {
-                border-color: #d79921;
-                border-style: solid;
-                border-bottom: 3px;
-                margin: 0px;
-                padding: 0px;
-            }
-            .btn-primary,
-            .btn-primary:hover,
-            .btn-primary:active,
-            .btn-primary:visited,
-            .btn-primary:focus {
-                color: #d79921;
-                background-color: #3c3836;
-                border-color: #d65d0e;
-                border-radius: 0%;
-                border-width: 1px;
-                border-left-width: 1px;
-                border-right-width: 1px;
-                margin-bottom: 1px;
-                margin-top: 1px;
-            }
-        </style>
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-            $(document).ready(function(){
-                $("body").addClass("default-text");
-                $("hr").addClass("hr-color");
-        });
-        </script>
-    </head>
-    <body>
-        <h1 id="main-title">Hello. I'm Armand.</h1>
-        <p id="intro-message">Computer Science student at King's College London.</p>
-        <hr/>
-        <h3>Contact:</h3>
-            <div id="contact-buttons-container"> 
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4">
-                        <a href="Armand-CV.pdf">
-                            <button class="btn btn-block btn-primary">CV</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4">
-                        <a href="mailto:armandbancila@gmail.com">
-                            <button class="btn btn-block btn-primary">mail</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4">
-                        <a href="https://www.linkedin.com/in/armandbancila">
-                            <button class="btn btn-block btn-primary">LinkedIn</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4">
-                        <a href="https://github.com/armandbancila">
-                            <button class="btn btn-block btn-primary">GitHub</button></a>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        <!-- <img src="/images/wip.png" alt="work in progress" class="img-responsive center-block"> -->
-    </body>
-</div>
+
+<head>
+  <title>Armand Bancila</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="card" class="container">
+    <div class="front">
+      <h1>Hello! I'm Armand.</h1>
+      <h2>Computer Science student at King's College London.</h2>
+      <p>I'm passionate about programming and in a constant process of adapting to the latest technological developments in software and hardware.</p>
+      <hr />
+      <p>For contact details click anywhere on this window.</p>
+    </div>
+    <div class="back">
+      <h1>Contact:</h1>
+      <h3>Resume / CV: <a href="http://armandbancila.me/Armand-CV.pdf">http://armandbancila.me/Armand-CV.pdf</a></h3>
+      <h3>Email: <a href="mailto:armandbancila@gmail.com">click here!</a></h3>
+      <h3>GitHub: <a href="https://github.com/armandbancila">https://github.com/armandbancila</a></h3>
+      <h3>LinkedIn: <a href="https://www.linkedin.com/in/armandbancila">https://www.linkedin.com/in/armandbancila</a></h3> </div>
+  </div>
+</body>
+
 </html>

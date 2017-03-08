@@ -1,0 +1,54 @@
+body {
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+
+#card {
+  width: 50vw;
+  height: 50vh;
+  margin-top: 20vh;
+}
+
+.front {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgba(7, 102, 120, 0.75);
+  border-radius: 5px;
+}
+
+.back {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgba(40, 40, 40, 0.75);
+  border-radius: 5px;
+}
+
+h1 {
+  color: white;
+  font-family: Raleway;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: Raleway;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: Raleway;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: Raleway;
+  font-size: 1em;
+  text-align: center;
+}
