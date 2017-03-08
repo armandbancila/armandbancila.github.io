@@ -4,9 +4,9 @@ body {
 }
 
 #card {
-  width: 50vw;
-  height: 50vh;
-  margin-top: 20vh;
+  width: 60vw;
+  height: 60vh;
+  margin-top: 15vh;
 }
 
 .front {
@@ -15,6 +15,7 @@ body {
   padding-right: 10%;
   background-color: rgba(7, 102, 120, 0.75);
   border-radius: 5px;
+  word-wrap: break-word;
 }
 
 .back {
@@ -23,6 +24,7 @@ body {
   padding-right: 10%;
   background-color: rgba(40, 40, 40, 0.75);
   border-radius: 5px;
+  word-wrap: break-word;
 }
 
 h1 {
