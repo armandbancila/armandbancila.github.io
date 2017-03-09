@@ -1,10 +1,11 @@
 body {
+  width: 100vw;
+  height: 100vh;
   background-image: url(background.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #card {
-  
   margin-top: 15vh;
 }
 
@@ -15,10 +16,16 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 10%;
-  background-color: rgba(7, 102, 120, 0.75);
+  background-color: rgba(7, 102, 120, 0.66);
   border-radius: 5px;
   word-wrap: break-word;
 }
+
+.front:hover {
+  background-color: white;
+  background-color: rgba(7, 102, 120, 0.9);
+}
+
 
 .back {
   width: 60%;
@@ -27,9 +34,13 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 10%;
-  background-color: rgba(40, 40, 40, 0.75);
+  background-color: rgba(40, 40, 40, 0.66);
   border-radius: 5px;
   word-wrap: break-word;
+}
+
+.back:hover {
+  background-color: rgba(40, 40, 40, 0.9);
 }
 
 h1 {
