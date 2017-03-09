@@ -14,7 +14,7 @@ body {
 }
 
 .flexbox {
-  margin-top: 10%;
+  margin-top: 5%;
   display: -webkit-flex;
   display: flex;
   align-items: center;
@@ -23,8 +23,8 @@ body {
 }
 
 .card-display {
-  padding: 10% 10% 10% 10%;
-  border-radius: 8px;
+  padding: 5% 20% 15% 20%;
+  border-radius: 5px;
   word-wrap: break-word;
 }
 
@@ -45,28 +45,28 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #fbf1c7;
   font-family: Raleway;
   font-size: 2em;
   text-align: center;
 }
 
 h2 {
-  color: white;
+  color: #fbf1c7;
   font-family: Raleway;
   font-size: 1.25em;
   text-align: center;
 }
 
 h3 {
-  color: white;
+  color: #fbf1c7;
   font-family: Raleway;
   font-size: 1.1em;
   text-align: center;
 }
 
 p {
-  color: white;
+  color: #fbf1c7;
   font-family: Raleway;
   font-size: 1em;
   text-align: center;
