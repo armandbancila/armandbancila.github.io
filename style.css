@@ -5,8 +5,8 @@ body {
   background-size: cover;
 }
 
-#card {
-  margin-top: 15vh;
+.container {
+  margin-top: 10%;
 }
 
 .front {
@@ -22,7 +22,6 @@ body {
 }
 
 .front:hover {
-  background-color: white;
   background-color: rgba(7, 102, 120, 0.9);
 }
 
