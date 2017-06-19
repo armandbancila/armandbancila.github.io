@@ -4,11 +4,11 @@
 window.onload = function () {
   var canvasDiv = document.getElementById('particle-canvas');
   var options = {
-    particleColor: '#FFD700',
-    background: 'background.jpg',
+    particleColor: '#d65d0e',
+    background: '#1d2021',
     interactive: false,
-    speed: 'medium',
-    density: 'medium'
+    speed: 'slow',
+    density: 'high'
   };
   var particleCanvas = new ParticleNetwork(canvasDiv, options);
 }

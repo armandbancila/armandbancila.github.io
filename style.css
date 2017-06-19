@@ -44,19 +44,19 @@ body {
 }
 
 .front {
-  background-color: rgba(7, 102, 120, 0.80);
+  background-color: rgba(69,133,136, 0.70)
 }
 
 .front:hover {
-  background-color: rgba(7, 102, 120, 0.90);
+  background-color: rgba(69,133,136, 0.90);
 }
 
 .back {
-  background-color: rgba(40, 40, 40, 0.80);
+  background-color: rgba(60,56,54, 0.70);
 }
 
 .back:hover {
-  background-color: rgba(40, 40, 40, 0.90);
+  background-color: rgba(60,56,54, 0.90);
 }
 
 h1 {
