@@ -20,7 +20,7 @@ body {
   
 }
 #particle-canvas > canvas {
-	position: absolute !important;
+  position: absolute !important;
   top: 0 !important;
 }
 
