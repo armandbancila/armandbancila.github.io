@@ -17,7 +17,6 @@ body {
   padding-top: 0;
   width: 100%;
   height: inherit;
-  
 }
 
 #particle-canvas > canvas {
@@ -38,51 +37,65 @@ body {
 }
 
 .card-display {
-  padding: 5% 20% 15% 20%;
+  padding: 5% 10% 15% 10%;
   border-radius: 5px;
   word-wrap: break-word;
 }
 
 .front {
-  background-color: rgba(69,133,136, 0.70)
+  background-color: rgba(238, 238, 238, 0.9)
 }
 
 .front:hover {
-  background-color: rgba(69,133,136, 0.90);
+  background-color: rgba(238, 238, 238, 1);
 }
 
 .back {
-  background-color: rgba(60,56,54, 0.70);
+  background-color: rgba(238, 238, 238, 0.9);
 }
 
 .back:hover {
-  background-color: rgba(60,56,54, 0.90);
+  background-color: rgba(238, 238, 238, 1);
 }
 
 h1 {
-  color: #fbf1c7;
+  color: #16161d;
   font-family: Raleway;
-  font-size: 2em;
+  font-size: 2.25em;
   text-align: center;
 }
 
 h2 {
-  color: #fbf1c7;
+  color: #16161d;
+  font-family: Raleway;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h3 {
+  color: #16161d;
   font-family: Raleway;
   font-size: 1.25em;
   text-align: center;
 }
 
-h3 {
-  color: #fbf1c7;
+li {
+  color: #16161d;
   font-family: Raleway;
-  font-size: 1.1em;
-  text-align: center;
+  font-size: 1.25em;
 }
 
 p {
-  color: #fbf1c7;
+  color: #16161d;
   font-family: Raleway;
   font-size: 1em;
   text-align: center;
+}
+
+hr {
+  border-top: 1px solid #16161d;
+}
+
+a {
+  color: #26619C;
 }
